@@ -1,4 +1,4 @@
-FROM opencv2-cuda8 
+FROM willprice/opencv2-cuda8 
 RUN apt-get update && \
     apt-get install -y git qtbase5-dev
 
